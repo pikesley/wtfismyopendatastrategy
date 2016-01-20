@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.3.0
+- 2.3.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: klZ6dWy20kZ7gvp/6rQ8DygtiMg8mZmAZPrbaDTWtMryLZpUQkHM+Yd7IRCY0LvO1vAurrtAxVlDqeY8GBQo3vwlYcsnEEFah7DG2+azqCISJlujWynWf5HDzk6g5KfUGt7NmT6KINmSsPQ6WGcjtyGxuR2lhwhjcc8k+zkIulU=
+  app: wtfismyopendatastrategy
+  on:
+    repo: pikesley/wtfismyopendatastrategy
