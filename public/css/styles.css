@@ -1,0 +1,46 @@
+#title {
+  font-size: 2.2em;
+}
+
+#thing {
+  font-size: 1.7em;
+}
+
+#title, #thing, #generate {
+  margin-top: 40px;
+}
+
+#generate {
+  position: absolute;
+  right: 10px;
+}
+
+#title, #thing, #generate {
+  text-transform: uppercase;
+}
+
+/* Footer magic */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  margin-top: 0px;
+
+  opacity: 1;
+  color: white;
+  height: 50px;
+  color: #333;
+  border-top: solid 1px #ccc;
+
+  padding: 15px;
+}
+
+.footer a {
+  font-weight: bold;
+}
